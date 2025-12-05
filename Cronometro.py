@@ -20,6 +20,7 @@ class Cronometro:
         tiempoPasado = self.tiempoFinal - self.tiempoInicial
 
         self.ultimoTiempo = round(tiempoPasado, 2)
+        return self.ultimoTiempo
 
     def getTiempo(self):
         return self.ultimoTiempo
